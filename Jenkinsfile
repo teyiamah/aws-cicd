@@ -4,8 +4,8 @@ pipeline {
     environment {
         BRANCH_NAME = 'main'
         GIT_URL = 'https://github.com/teyiamah/aws-cicd.git'
-        IMAGE_TAG = 'awscicd'
-        IMAGE_VERSION =" ${BUILD_NUMBER}"
+        IMAGE_TAG = 'teyiamah/awscicd'
+        IMAGE_VERSION = "${BUILD_NUMBER}"
     }
     
      stages {
